@@ -1,13 +1,14 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path: ../../../static/data
+train: ./train/images
+val: ./valid/images
+test: ./test/images
 
-nc: 4
-names: ['dropped spike', 'enemy', 'planted spike', 'teammate']
+nc: 3
+names: ['Valorant-enemy', 'enemy', 'enemy_head']
 
 roboflow:
-  workspace: daniels-magonis-0pjzx
-  project: valorant-9ufcp
-  version: 3
+  workspace: david-hong
+  project: valorant-enemy
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/daniels-magonis-0pjzx/valorant-9ufcp/dataset/3
+  url: https://universe.roboflow.com/david-hong/valorant-enemy/dataset/2

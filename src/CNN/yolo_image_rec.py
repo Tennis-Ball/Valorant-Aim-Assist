@@ -16,7 +16,7 @@ def parse_args():
     return args
 
 def train_yolov8(data, epochs, img_size, batch_size, weights, device):
-    model = YOLO('yolov8n.pt')  # Initialize the YOLOv8 model with the pretrained weights
+    model = YOLO('yolov8m.pt')  # Initialize the YOLOv8 model with the pretrained weights
     
     # Check if custom weights are provided
     if weights:
